@@ -1,28 +1,32 @@
 # Penjelasan CRUD pada setiap gambar/page
 
+<b>1. Create (Tambah Mahasiswa) </b> <br> <br>
+<img src="https://github.com/user-attachments/assets/d6d4907b-dcac-428a-b128-830a5dc70006" width="280">
+<br>
+<ul>
+  <li>Screenshot ini memperlihatkan tampilan formulir untuk menambah data mahasiswa baru. Formulir ini muncul setelah pengguna menekan tombol "TAMBAH MAHASISWA" pada tampilan daftar mahasiswa. Pengguna dapat mengisi nama dan jurusan mahasiswa di dalam input yang tersedia, lalu menekan tombol "TAMBAH MAHASISWA" untuk menyimpan data ke dalam sistem.</li>
+</ul>
+<br>
+
+<b>2. Read (Tampilkan Data Mahasiswa) </b> <br> <br>
 <img src="https://github.com/user-attachments/assets/fe704f56-79c3-4075-9012-d55eb334a5a5" width="280">
 <br> 
-<b>1. Create (Tambah Data Mahasiswa)</b> <br> <br>
 <ul>
-  <li>Tombol "TAMBAH MAHASISWA": Tombol ini digunakan untuk menambahkan data mahasiswa baru. Ketika tombol ini ditekan, sebuah modal akan muncul (sesuai implementasi kode sebelumnya) dengan input untuk nama dan jurusan mahasiswa.</li>
-  <li>Proses: Setelah data nama dan jurusan diisi dan dikonfirmasi (misalnya dengan menekan tombol "Tambah Mahasiswa" pada modal), data baru akan dikirim ke server menggunakan metode POST. Server akan menyimpan data tersebut ke dalam database, dan data baru ini akan ditampilkan di daftar mahasiswa setelah diambil kembali.</li>
+  <li>Screenshot ini menunjukkan tampilan daftar mahasiswa yang sudah ada dalam sistem. Setiap card menampilkan nama mahasiswa dan jurusannya, serta memiliki tombol "EDIT" untuk mengedit data mahasiswa dan "HAPUS" untuk menghapus data mahasiswa tersebut. Selain itu, ada tombol besar "TAMBAH MAHASISWA" di bawah daftar yang memungkinkan pengguna menambah data mahasiswa baru.</li>
 </ul>
+
 <br>
-<b>2. Read (Tampil Data Mahasiswa)</b> <br> <br>
+<b>3. Update (Edit Data Mahasiswa).</b> <br> <br>
+
+<img src="https://github.com/user-attachments/assets/ec1d56ca-f9a2-44c7-b8fd-be8e8add56f1" width="280"> <br>
 <ul>
-  <li>Daftar Data Mahasiswa: Di bagian utama, data mahasiswa ditampilkan dalam bentuk kartu (card) yang menampilkan nama dan jurusan mahasiswa.</li>
-  <li>Proses: Data ini diambil dari database dengan permintaan GET yang dikirim ke server. Saat halaman pertama kali dimuat, aplikasi akan mengambil seluruh data mahasiswa dari server dan menampilkannya.</li>
+  <li>Screenshot ini menunjukkan proses Update atau Edit Data Mahasiswa di mana pengguna dapat memperbarui data yang telah tersimpan sebelumnya. Formulir ini muncul ketika pengguna menekan tombol "EDIT" pada data mahasiswa tertentu di tampilan daftar. Setelah mengubah informasi pada kolom yang tersedia, pengguna dapat menekan tombol "EDIT MAHASISWA" untuk menyimpan perubahan.</li>
 </ul>
 <br>
 
-<b>3. Update (Edit Data Mahasiswa)</b> <br> <br>
-<ul>
-  <li>Tombol "EDIT": Setiap mahasiswa memiliki tombol "EDIT" di sebelah kanan. Ketika tombol ini ditekan, sebuah modal akan muncul dengan input yang sudah diisi dengan data mahasiswa yang akan diedit.</li>
-  <li>Proses: Setelah perubahan pada nama atau jurusan mahasiswa dilakukan, data yang diperbarui akan dikirim ke server menggunakan metode PUT atau POST (tergantung implementasi server) untuk memperbarui data mahasiswa yang ada. Data yang diperbarui kemudian akan ditampilkan di daftar setelah permintaan berhasil.</li>
-</ul>
+<b>4. Delete (Hapus Data Mahasiswa) </b> <br>
+<img src="https://github.com/user-attachments/assets/ee0f8e4d-4b0e-4015-a228-665ddc19a72f" width="280" > <br>
 
-<b>4. Delete (Hapus Data Mahasiswa)</b> <br> <br>
 <ul>
-  <li>Tombol "HAPUS": Setiap mahasiswa juga memiliki tombol "HAPUS" di sebelah kanan tombol "EDIT". Ketika tombol ini ditekan, aplikasi akan menampilkan konfirmasi (alert) yang menanyakan apakah pengguna yakin ingin menghapus data tersebut.</li>
-  <li>Proses: Jika pengguna mengonfirmasi untuk menghapus, aplikasi akan mengirim permintaan DELETE ke server dengan ID mahasiswa yang akan dihapus. Server akan menghapus data tersebut dari database, dan daftar mahasiswa di aplikasi akan diperbarui dengan data terbaru (tanpa data yang dihapus).</li>
+  <li>Screenshot ini menunjukkan proses konfirmasi penghapusan data mahasiswa. Pada tampilan ini, pengguna dapat menghapus data mahasiswa yang telah tersimpan dengan menekan tombol "HAPUS" pada data mahasiswa tertentu di daftar. Setelah menekan tombol "HAPUS," sebuah dialog konfirmasi akan muncul, menanyakan apakah pengguna yakin ingin menghapus data tersebut. Tersedia dua pilihan, yaitu "TIDAK" untuk membatalkan penghapusan, dan "YA" untuk melanjutkan penghapusan data mahasiswa.</li>
 </ul>
