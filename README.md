@@ -1,5 +1,9 @@
 # Penjelasan CRUD pada setiap gambar/page
 
+<b> Nama :</b> Muhammad Ifan Sidiq Maulana <br>
+<b> NIM :</b> H1D022012 <br>
+<b> Shift KRS/Baru :</b> A/E <br> <br>
+
 <b>1. Create (Tambah Mahasiswa) </b> <br> <br>
 <img src="https://github.com/user-attachments/assets/d6d4907b-dcac-428a-b128-830a5dc70006" width="280">
 <br>
